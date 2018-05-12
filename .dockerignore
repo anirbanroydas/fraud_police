@@ -1,0 +1,93 @@
+# process related
+**/**/nohup.out
+**/*/nohup.out
+**/nohup.out
+*/**/nohup.out
+*/*/nohup.out
+*/nohup.out
+nohup.out
+
+############ Project Related  ###############
+
+# SSH KEYS
+travis_deploy_rsa
+travis_deploy_rsa.pub
+jenkins_deploy_rsa
+jenkins_deploy_rsa.pub
+
+
+
+##### Go Related ##########
+
+mongo_seed/
+mysql_seed/test_data
+fraud_police.log
+*.log
+logs
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# vendor package related (simialr to node_modules)
+vendor/
+
+
+*.log
+*.tmp
+
+Godeps/_workspace
+vendor
+
+
+
+############# Python  ###################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#Mac-OS-X_files
+.DS_Store
+.DS_S*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+
+# windows related
+*.bat
+
+# backup files
+*.bak
+
+
