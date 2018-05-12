@@ -163,9 +163,4 @@ There are two ways to deploy:
 
 Check the above **Step 3** which will direct you to a place on how to use it. There is not API as such to know what and how request are processed, for now just go through the code. Docs may be added later for detail description.
 
-TODO
------
-
-* Add api related documentation
-* Add proper implementations if required
 
